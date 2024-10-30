@@ -86,7 +86,6 @@ class TestVarasto(unittest.TestCase):
 
     def test_saldo_negatiivinen(self):
         self.varasto = Varasto(10, -2)
-
         self.assertEqual(self.varasto.saldo, 0.0)
 
 
